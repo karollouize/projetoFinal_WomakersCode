@@ -216,29 +216,7 @@
 				$window.trigger('resize');
 			});
 
-	// // Quiz
-	// 	function verificarRespostas() {
-	// 	var respostas = document.querySelectorAll('input[type=radio]:checked');
-	// 	var resultado = 0;
-	// 	if (respostas.length == 5) {
-	// 		if (respostas[0].value == 'b') {
-	// 			resultado++;
-	// 		}
-	// 		if (respostas[1].value == 'b') {
-	// 			resultado++;
-	// 		}
-	// 		if (respostas[2].value == 'c') {
-	// 			resultado++;
-	// 		}
-	// 		if (respostas[3].value == 'c') {
-	// 			resultado++;
-	// 		}
-	// 		if (respostas[4].value == 'd') {
-	// 			resultado++;
-	// 		}
-	// 		alert('Você acertou ' + resultado + ' de 5 perguntas!');
-	// 	} else {
-	// 		alert('Por favor, responda todas as perguntas.');
-	// 	}
+	// Quiz.
+		
 
 })(jQuery);
