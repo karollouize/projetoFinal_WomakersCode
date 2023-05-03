@@ -2314,18 +2314,21 @@ input, select, textarea {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 #quiz {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5px;
+	background: linear-gradient(90deg, white 0%, white 100%);
 }
 
 #quiz_container {
-  background-color: pink;
-  padding: 10px;
+  background-color: #1F86BF;
+    padding: 10px;
   border-radius: 10px;
   width: 100%;
-  max-width: 300px;
+  max-width: 1000px;
   min-height: 200px;
   display: flex;
   align-items: center;
