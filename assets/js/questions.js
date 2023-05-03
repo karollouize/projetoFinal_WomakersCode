@@ -3,7 +3,7 @@ export default [
       question: "Em que país Hedy Lamarr nasceu?",
       answers: [
         { option: "Estados Unidos", correct: false },
-        { option: "Áustria", correct: true}
+        { option: "Áustria", correct: true},
         { option: "Alemanha", correct: false },
         { option: "França", correct: false },
       ],
@@ -12,7 +12,7 @@ export default [
       question: "Qual foi o primeiro filme americano de Hedy Lamarr?",
       answers: [
         { option: "Sansão e Dalila", correct: false },
-        { option: "Argélia", correct: true}
+        { option: "Argélia", correct: true},
         { option: "E o Vento Levou", correct: false },
         { option: "Casablnca", correct: false },
       ],
@@ -45,3 +45,4 @@ export default [
         ],
       },
   ];
+
