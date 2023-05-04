@@ -2263,7 +2263,7 @@ input, select, textarea {
 /* Three */
 
 	#three {
-		background: url("images/overlay.png"), url("../../assets/images/hedy_laboratory.webp");
+		background: url("images/overlay.png"), url("../../assets/images/hedy_background_4.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2325,7 +2325,7 @@ input, select, textarea {
 
 #quiz_container {
   background-color: #1F86BF;
-    padding: 10px;
+	padding: 10px;
   border-radius: 10px;
   width: 100%;
   max-width: 1000px;
