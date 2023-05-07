@@ -2313,26 +2313,31 @@ input, select, textarea {
 /* Quiz */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-#quiz {
+.quiz {
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	gap: 5px;
-	background: linear-gradient(90deg, white 0%, white 100%);
+	background: solid white;
 }
 
-#quiz_container {
-  background-color: #1F86BF;
-	padding: 10px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 1000px;
-  min-height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.app{
+	background: #c4e3f3;
+	width: 100%;
+	max-width: 600px;
+	margin: 100px auto 0;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.app h2{
+	font-weight: 25px;
+	color: #001e4d;
+	font-weight: 600;
+	border-bottom: 1px solid #333;
+	padding-bottom: 30px;
 }
 
 content {
@@ -2350,6 +2355,14 @@ content {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  background-color: #c4e3f3;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button {
@@ -2361,6 +2374,11 @@ button {
   cursor: pointer;
   background-color: #145980;
   color: white;
+}
+
+button:hover{
+	background: #379dd9;
+	color: #fff;
 }
 
 .finish {
