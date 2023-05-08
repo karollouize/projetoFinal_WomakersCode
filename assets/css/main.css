@@ -504,7 +504,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: #005954;
 		letter-spacing: 0.025em;
 	}
 
@@ -622,7 +622,7 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		color: #39454b;
+		color: #005954;
 		padding: 2em;
 	}
 
@@ -2249,25 +2249,56 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+		color: #d5ffff;
+	}
+
+	#intro h2 {
+		color: #9ce0db;
 	}
 
 /* One */
 
 	#one {
 		background: url("images/overlay.png"), url("../../assets/images/hedy_background_3.jpg");
+		color: #005954;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+	#one h2 {
+		color: #9ce0db;
+	}
+
+/* Two */
+
+	#two {
+		color: #005954;
+	}
+
+	#two h2 {
+		color: #9ce0db;
+	}	
 
 /* Three */
 
 	#three {
 		background: url("images/overlay.png"), url("../../assets/images/hedy_background_4.jpg");
+		color: #005954;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+	#three h2 {
+		color: #9ce0db;
+	}
+	
+/* Four */
+
+	#four h2 {
+		color: #9ce0db;
+	}	
 
 /* Contact */
 
@@ -2324,17 +2355,20 @@ input, select, textarea {
 }
 
 .app{
-	background: #c4e3f3;
+	background: #f4fdfd;
+	color: #005954;
+	font-weight: 500;
+	font-size: larger;
 	width: 100%;
 	max-width: 600px;
-	margin: 100px auto 0;
+	margin: 10px auto 20px;
 	border-radius: 10px;
 	padding: 30px;
 }
 
 .app h2{
 	font-weight: 25px;
-	color: #001e4d;
+	color: #005954;
 	font-weight: 600;
 	border-bottom: 1px solid #333;
 	padding-bottom: 30px;
@@ -2355,7 +2389,7 @@ content {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background-color: #c4e3f3;
+  background-color: #f4fdfd;
   color: #222;
   font-weight: 500;
   width: 100%;
@@ -2363,30 +2397,48 @@ content {
   margin: 10px 0;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 button {
   width: 100%;
-  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 5px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #145980;
-  color: white;
+  border: 2px solid #005954;
+  background-color: #c2e7e7;
+  color: #005954;
+  font-size: medium;
 }
 
-button:hover{
-	background: #379dd9;
+button:hover {
+	background: #5dc1b9;
 	color: #fff;
+	border-color: #005954;
 }
+
 
 .finish {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  margin: 4px auto 20px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  background: #f4fdfd;
+  color: #333;
+  gap: 5px;
 }
 
 .finish button {
   text-align: center;
+  width: 20%;
+  margin: 4px auto 10px;
 }

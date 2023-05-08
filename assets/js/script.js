@@ -34,13 +34,13 @@ function nextQuestion(e) {
 }
 
 function finish() {
-  textFinish.innerHTML = `você acertou ${questionsCorrect} de ${questions.length}`;
+  textFinish.innerHTML = `Você acertou ${questionsCorrect} de ${questions.length}!`;
   content.style.display = "none";
   contentFinish.style.display = "flex";
 }
 
 function loadQuestion() {
-  spnQtd.innerHTML = `${currentIndex + 1}/${questions.length}`;
+  spnQtd.innerHTML = `Pergunta ${currentIndex + 1}:`;
   const item = questions[currentIndex];
   answers.innerHTML = "";
   question.innerHTML = item.question;
