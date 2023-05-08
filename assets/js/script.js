@@ -18,6 +18,9 @@ btnRestart.onclick = () => {
   currentIndex = 0;
   questionsCorrect = 0;
   loadQuestion();
+  question.classList.remove("hidden");
+  answers.classList.remove("hidden");
+  spnQtd.classList.remove("hidden");
 };
 
 function nextQuestion(e) {
@@ -30,6 +33,10 @@ function nextQuestion(e) {
     loadQuestion();
   } else {
     finish();
+    content.style.display = "none";
+    question.classList.add("hidden");
+    answers.classList.add("hidden");
+    spnQtd.classList.add("hidden");
   }
 }
 

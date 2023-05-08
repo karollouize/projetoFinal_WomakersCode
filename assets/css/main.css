@@ -2442,3 +2442,7 @@ button:hover {
   width: 20%;
   margin: 4px auto 10px;
 }
+
+.hidden {
+	display: none;
+}
