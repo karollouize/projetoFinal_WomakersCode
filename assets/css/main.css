@@ -2446,3 +2446,10 @@ button:hover {
 .hidden {
 	display: none;
 }
+
+.app h2 img  {
+	display: inline-block;
+	width: 10%;
+	height: auto;
+	margin-right: 2px;
+}
