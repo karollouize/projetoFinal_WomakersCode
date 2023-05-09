@@ -18,6 +18,8 @@
 
 ​	Esse site será dedicado a Hedy Lamarr, uma lendária estrela de Hollywood e também uma notável inventora. Nesse site você poderá explorar a história por trás da sua incrível invenção que revolucionou o mundo da comunicação sem fio. Além disso, no final, você poderá testar seus conhecimentos sobre ela com um quiz. Descubra a vida inspiradora dessa figura notável que deixou um legado marcante tanto na indústria do entretenimento quanto na tecnologia.
 
+**OBS: experimente o site no computador para ter uma melhor experiência**
+
 #### Base do Código
 
 ​	Encontrei o site https://html5up.net/ que contem vários templates de sites e fornece gratuitamente seus códigos HTML, CSS e JavaScript. O tema escolhido foi o "Big Picture" cujo link para a Demo do código é https://html5up.net/big-picture. 
