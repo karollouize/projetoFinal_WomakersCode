@@ -551,7 +551,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			body, input, textarea, select {
 				font-size: 12pt;
@@ -577,7 +577,7 @@ input, select, textarea {
 		letter-spacing: -0.05em;
 	}
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 500px) {
 
 		h2 {
 			font-size: 1.5em;
@@ -645,7 +645,7 @@ input, select, textarea {
 			padding: 3.5em 2.5em 3.5em 2.5em;
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			.box {
 				padding: 1em;
@@ -1457,7 +1457,7 @@ input, select, textarea {
 			opacity: 1.0 !important;
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
@@ -1943,7 +1943,7 @@ input, select, textarea {
 						font-family: "Satisfy", "sans-serif";
 					}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			#header {
 				height: 2.5em;
@@ -1976,7 +1976,7 @@ input, select, textarea {
 
 	
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			body {
 				padding-top: 2.5em;
@@ -2182,7 +2182,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			.main > .content br {
 				display: none;
@@ -2304,7 +2304,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 500px) {
 
 			#footer ul.menu li {
 				border-left: none;
