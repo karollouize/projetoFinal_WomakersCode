@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Pacifico&family=Satisfy&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -499,13 +500,23 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+	h1, h2, h3, input, textarea, select {
+		font-family: "Satisfy", "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #005954;
 		letter-spacing: 0.025em;
+	}
+
+	body {
+		font-family: "Mulish", "sans-serif";
+		font-weight: 300;
+		font-size: 18pt;
+		line-height: 1.75em;
+		color: #005954;
+		letter-spacing: 0.025em;
+	}
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -1877,6 +1888,7 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+						font-family: "Satisfy", "sans-serif";
 					}
 
 		@media screen and (max-width: 736px) {
@@ -2299,48 +2311,7 @@ input, select, textarea {
 	#four h2 {
 		color: #9ce0db;
 	}	
-
-/* Contact */
-
-	#contact {
-		overflow: hidden;
-		padding-bottom: 0;
-	}
-
-		#contact .box {
-			-moz-transition: -moz-transform 1s ease;
-			-webkit-transition: -webkit-transform 1s ease;
-			-ms-transition: -ms-transform 1s ease;
-			transition: transform 1s ease;
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			position: relative;
-		}
-
-		#contact.inactive .box {
-			-moz-transform: translateY(100%);
-			-webkit-transform: translateY(100%);
-			-ms-transform: translateY(100%);
-			transform: translateY(100%);
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#contact .box {
-				padding: 1.5em 1.5em 2em 1.5em;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#contact .box {
-				padding: 1em 1em 2em 1em;
-			}
-
-		}
+	
 /* Quiz */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -2358,7 +2329,7 @@ input, select, textarea {
 	background: #f4fdfd;
 	color: #005954;
 	font-weight: 500;
-	font-size: larger;
+	font-size: large;
 	width: 100%;
 	max-width: 600px;
 	margin: 10px auto 20px;
@@ -2392,6 +2363,7 @@ content {
   background-color: #f4fdfd;
   color: #222;
   font-weight: 500;
+  font-family: "Mulish";
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -2414,6 +2386,7 @@ button {
   background-color: #c2e7e7;
   color: #005954;
   font-size: medium;
+  font-family: "Mulish";
 }
 
 button:hover {
@@ -2449,7 +2422,13 @@ button:hover {
 
 .app h2 img  {
 	display: inline-block;
-	width: 10%;
-	height: auto;
-	margin-right: 2px;
+	vertical-align: middle;
+	width: 80px;
+	margin-bottom: 0px;
+}
+
+
+/* Video */
+#video_hedy {
+	margin-top: 20px;
 }

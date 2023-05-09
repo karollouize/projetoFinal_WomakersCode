@@ -26,15 +26,13 @@
 
 #### Inspirações
 
-​	Usei a fonte "Roslindale" para os títulos como fonte principal por acreditar que é uma fonte que passa profissionalismo e beleza. E a fonte escolhida para o texto foi a "News Cycle", usada em jornais.
+​	Usei a fonte "Satisfy" para os títulos como fonte principal por acreditar que é uma fonte que remete ao cinema dos anos 30 e 40. E a fonte escolhida para o texto foi a "Mulish", fácil de ler e bem espaçada. Ambas fontes foram obtidas no Google Fonts.
 
-​	As cores decididas para a montagem do site foram a escala de cinza, variando entre o cinza claro XXXXXXX, o cinza médio XXXXXXXXX e o cinza escuro XXXXX. Além de branco XXXXXX e preto XXXXX. Essas cores foram escolhidas para combinar com as fotos da época serem preto e branco, por dar um tom de clássico e por passar seriedade. 
-
-​	Já a cor de destaque escolhida foi XXXXXXX por ser uma cor mais leve, se destacar bem e dar um toque de cor profissional (azul) mas divertido (tom do azul).
+​	As cores decididas para a montagem do site foram a escala de cinza original no código. A cor dos textos foram alteradas para escala de verde-água. Escolhi o verde por ser uma cor neutra e para sair da mesmice de escala de cinza com branco.
 
 #### Alterações
 
-​	Realizei alguma alterações como mudar a ordem dos blocos (inverti o terceiro com o quarto bloco), adicionei o vídeo na parte de Hollywood e o Quiz no final do site. 
+​	Realizei alguma alterações como mudar a ordem dos blocos (inverti o terceiro com o quarto bloco), adicionei o vídeo na parte de Hollywood, foi adicionado um bloco novo com o título "Hedy e Família" e o Quiz no final do site. 
 
 ​	Alterei as cores do site, as fontes, o ícone que aparece na barra do navegador e as imagens.
 
@@ -46,11 +44,15 @@ Adicionei meus links pessoais no final do site direcionando para minhas rede soc
 
 ​	Também tive dificuldade para adicionar o quiz, acredito ser pela falta de prática com JavaScript. Isso me fez consumir muito conteúdo nessa linguagem e agora me sinto mais confiante.
 
+​	A parte de CSS pareceu um pouco confusa no começo por podermos alterar muitos detalhes, mas tem muito conteúdo explicativo e com o tempo se tornou mais intuitivo.
+
 #### Observações
 
-​	Esse foi meu primeiro desafio em programação na minha vida. Nunca tinha tido contato com Front-end (HTML, CSS e JavaScript), mas já tive experiências com lógica de programação que me deram uma base junto ao curso fornecido pelas plataformas Womakers Code e Potência Tech que tornaram possível a confecção desse site.
+​	Esse foi meu primeiro desafio em programação na minha vida. Nunca tinha tido contato com Front-end (HTML, CSS e JavaScript), mas já tive experiências com lógica de programação. Isso junto ao curso fornecido pelas plataformas Womakers Code e Potência Tech me deram base suficiente tornando possível a confecção desse site.
 
 ​	Estou muito satisfeita com o resultado e me diverti muito fazendo o desafio. Obrigada pela oportunidade! :smile::heart:
+
+
 
 
 
