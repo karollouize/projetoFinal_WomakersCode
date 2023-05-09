@@ -1951,6 +1951,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
+					display: none;
 					text-align: center;
 					position: relative;
 					left: 0;
@@ -2381,7 +2382,6 @@ input, select, textarea {
 		color: #9ce0db;
 	}	
 
-	@media screen and (max-width: 320px) {
 	
 	/* Intro */
 
@@ -2536,10 +2536,18 @@ button:hover {
 
 
 /* Video */
-#video_hedy {
+.iframe {
 	margin-top: 20px;
-	width: 100%;
-	height: auto;
-	max-width: 640;
-	max-height: 360;
+	width: "560";
+	height: "315";
+}
+
+@media screen and (max-width: 320px) {
+	.iframe {
+		margin-top: 20px;
+		width: 100%;
+		height: auto;
+		max-width: 300;
+		max-height: auto;
+	}
 }
