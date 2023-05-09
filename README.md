@@ -46,6 +46,8 @@ Adicionei meus links pessoais no final do site direcionando para minhas rede soc
 
 ​	A parte de CSS pareceu um pouco confusa no começo por podermos alterar muitos detalhes, mas tem muito conteúdo explicativo e com o tempo se tornou mais intuitivo.
 
+​	Porém, a maior dificuldade que encontrei foi de adaptação do site versão web para o site versão celular. A barra inicial e o quiz não queriam se adaptar ao tamanho de forma alguma.
+
 #### Observações
 
 ​	Esse foi meu primeiro desafio em programação na minha vida. Nunca tinha tido contato com Front-end (HTML, CSS e JavaScript), mas já tive experiências com lógica de programação. Isso junto ao curso fornecido pelas plataformas Womakers Code e Potência Tech me deram base suficiente tornando possível a confecção desse site.
