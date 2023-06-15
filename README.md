@@ -20,6 +20,9 @@
 
 **OBS: experimente o site no computador para ter uma melhor experiência**
 
+Resultado final:
+https://karollouize.github.io/projetoFinal_WomakersCode/
+
 #### Base do Código
 
 ​	Encontrei o site https://html5up.net/ que contem vários templates de sites e fornece gratuitamente seus códigos HTML, CSS e JavaScript. O tema escolhido foi o "Big Picture" cujo link para a Demo do código é https://html5up.net/big-picture. 
